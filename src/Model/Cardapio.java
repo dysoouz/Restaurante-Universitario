@@ -2,6 +2,7 @@ package Model;
 
 
 public class Cardapio {
+<<<<<<< HEAD
     private String tipoArroz;
     private String tipoFeijao;
     private String farofa;
@@ -19,10 +20,47 @@ public class Cardapio {
         this.salada = salada;
         this.tipoBebida = tipoBebida;
         this.tipoSobremesa = tipoSobremesa;
+=======
+    //atributos
+    private String diaCardapio="", diaBebida="", diaSobremesa="";
+
+
+    public Cardapio() {}
+
+    public Cardapio(String diaCardapio, String diaBebida, String diaSobremesa){
+        this.diaBebida=diaBebida;
+        this.diaSobremesa=diaSobremesa;
+        this.diaCardapio=diaCardapio;
+    }
+
+    public String getDiaCardapio() {
+        return diaCardapio;
+    }
+
+    public void setDiaCardapio(String diaCardapio) {
+        this.diaCardapio = diaCardapio;
+    }
+
+    public String getDiaBebida() {
+        return diaBebida;
+    }
+
+    public void setDiaBebida(String diaBebida) {
+        this.diaBebida = diaBebida;
+    }
+
+    public String getDiaSobremesa() {
+        return diaSobremesa;
+    }
+
+    public void setDiaSobremesa(String diaSobremesa) {
+        this.diaSobremesa = diaSobremesa;
+>>>>>>> 6f1e8f052dad7afecb1f232bf616b023791bc775
     }
 
     @Override
     public String toString() {
+<<<<<<< HEAD
         return "Cardápio:\n" +
                 tipoArroz +
                 tipoFeijao +
@@ -81,4 +119,8 @@ public class Cardapio {
         }
     }
 
+=======
+        return "Cardapio\n" + diaCardapio + "\n\nBebida:\n" + diaBebida + "\n\nSobremesa:\n" + diaSobremesa ;
+    }
+>>>>>>> 6f1e8f052dad7afecb1f232bf616b023791bc775
 }

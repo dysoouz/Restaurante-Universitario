@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 
 import View.Janela;
 
+=======
+import View.Janela;
+
+
+>>>>>>> 6f1e8f052dad7afecb1f232bf616b023791bc775
 import java.io.IOException;
 
 public class Main {
@@ -8,6 +14,7 @@ public class Main {
         Janela janela = new Janela();
     }
 }
+<<<<<<< HEAD
 
 /*
  * O código apresenta a implementação do padrão de projeto Builder. O padrão Builder é um padrão de criação,
@@ -30,3 +37,5 @@ public class Main {
  * - Chamar o método builder() para criar um objeto Cardapio com os atributos configurados.
  * - O objeto Cardapio resultante pode ser usado para representar um cardápio completo.
  */
+=======
+>>>>>>> 6f1e8f052dad7afecb1f232bf616b023791bc775
